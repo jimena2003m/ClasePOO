@@ -5,17 +5,17 @@
  */
 package ejerciciospoo;
 
+import java.util.Scanner;
 /**
  *
- * @author Unicomfacauca
+ * @author USUARIO
  */
 public class EjerciciosPOO {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    public static void main( String[]args){
+    System.out.println(" ingrese su nombre ");
+    Scanner teclado = new Scanner( System.in);
+    int dato = teclado.nextInt();
+    System.out.println(" hola " + dato); 
     
+    }
 }
